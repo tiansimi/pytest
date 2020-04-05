@@ -14,7 +14,7 @@ def func(x):
 
 
 def test_answer():
-    assert func(3) == 4
+    assert func(3) == 5
 
 
 # 当用例多的时候写一个测试类ui
