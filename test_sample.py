@@ -7,6 +7,7 @@ pytest用例规则：
 断言使用assert
 '''
 # content of test_sample.py
+import pytest
 
 
 def func(x):
@@ -14,7 +15,7 @@ def func(x):
 
 
 def test_answer():
-    assert func(3) == 5
+    assert func(3) == 4
 
 
 # 当用例多的时候写一个测试类ui
